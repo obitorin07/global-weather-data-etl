@@ -72,6 +72,8 @@ python weather_pipeline/run_daily_update.py
 
 ---
 <div align="center">
-  <b>Built with ❤️ by Kiran - Data Analyst</b><br>
-  <a href="https://kirananalyst.com">Visit kirananalyst.com</a>
+  <b>Built with ❤️ by Kiran - Data Analyst</b><br><br>
+  <a href="https://kirananalyst.com">
+    <img src="https://img.shields.io/badge/Website-kirananalyst.com-2798FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+  </a>
 </div>
