@@ -1,6 +1,7 @@
 <div align="center">
   
 # 🌍 Global Weather Data ETL Pipeline
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=30&pause=1000&color=2798FF&center=true&vCenter=true&width=800&height=80&lines=Global+Weather+Data+ETL+Pipeline;Processing+Millions+of+Records;Built+by+Kiran+-+Data+Analyst" alt="Typing SVG" />
 
 **A fully automated Python & PostgreSQL Data Engineering Pipeline processing millions of records.**
 
@@ -71,6 +72,6 @@ python weather_pipeline/run_daily_update.py
 
 ---
 <div align="center">
-  <b>Built with ❤️ by an aspiring Data Professional</b><br>
+  <b>Built with ❤️ by Kiran - Data Analyst</b><br>
   <a href="https://kirananalyst.com">Visit kirananalyst.com</a>
 </div>
