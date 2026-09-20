@@ -30,9 +30,9 @@ def run_incremental_pipeline():
     print("====================================================")
     print(f"Timeframe: {START_DATE} to {END_DATE}")
     
-    # 1. Generate our dynamic list of 350 global cities
-    print("Finding the top 350 cities in the world...")
-    cities = get_global_cities(limit=350)
+    # 1. Generate our dynamic list of 150 global cities
+    print("Finding the top 150 cities in the world...")
+    cities = get_global_cities(limit=150)
     
     total_inserted_rows = 0
     

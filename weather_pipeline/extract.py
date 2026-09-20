@@ -13,11 +13,11 @@ import requests
 import geonamescache
 import time
 
-def get_global_cities(limit=350):
+def get_global_cities(limit=150):
     """
     Get a diverse list of major global cities using geonamescache.
-    We pull the top cities by population to ensure we capture multiple states/regions
-    for large countries like India and the USA, rather than just single capitals.
+    We pull the top 150 cities by population to capture multiple states/regions
+    without triggering the Open-Meteo free tier API rate limits.
     """
     # Load the offline database of cities and countries
     gc = geonamescache.GeonamesCache()

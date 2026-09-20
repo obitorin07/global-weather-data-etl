@@ -6,7 +6,7 @@ Bio: I have experience in turning raw data into actionable insights
 and building robust process automation pipelines.
 =============================================================================
 This is the MASSIVE Historical ETL script. 
-It pulls 2 years of hourly data for 350 global cities. 
+It pulls 2 years of hourly data for 150 global cities. 
 Run this exactly ONCE to seed your database with millions of rows.
 """
 
@@ -24,9 +24,9 @@ def run_historical_pipeline():
     print("   MASSIVE HISTORICAL WEATHER ETL PIPELINE RUNNING  ")
     print("====================================================")
     
-    # 1. Generate our dynamic list of 350 global cities
-    print("Finding the top 350 cities in the world...")
-    cities = get_global_cities(limit=350)
+    # 1. Generate our dynamic list of 150 global cities
+    print("Finding the top 150 cities in the world...")
+    cities = get_global_cities(limit=150)
     
     # 2. Calculate the 2-year exact date window
     end_date = datetime.now().date()
