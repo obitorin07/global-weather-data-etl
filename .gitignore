@@ -2,4 +2,6 @@ __pycache__/
 demo.txt
 .env
 ignore.txt
+# Presentations
+presentation.html
 weather_project_blog.md
